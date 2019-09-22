@@ -1,0 +1,126 @@
+BODY 
+    fonte 'Roboto', sans-serif;
+    font-weight: 300;
+    tamanho da fonte 14px 
+    altura da linha de 1.5
+
+TOPO
+    imagem de fundo "fundo-topo.jpg"
+    espaçamento interno superior e inferior de 20px
+
+TOPO H1
+    largura de 134px
+    espaçamento externo superior e inferior de 0
+    espaçamento externo laterais "auto"
+
+MENU
+    texto centralizado
+    cor de fundo branca
+
+MENU LI (itens)
+    display: inline-block;
+    espaçamento interno direito de 30px
+    imagem de fundo "patinha-preta.png"
+    imagem de fundo alinhada ao centro e à direita
+    imagem de fundo sem repetição
+
+MENU ÚLTIMO LI 
+    sem imagem de fundo 
+    espaçamento interno direito 0px
+
+MENU ÚLTIMO LINKS
+    cor do texto preto
+    tamanho da fonte 18px
+    fonte 'Raleway', sans-serif;
+    font-weight: 400;
+
+MENU ÚLTIMO LINKS (HOVER)
+    cor do texto #6DD432
+
+SOBRE e SERVICOS
+    cor de fundo #BDFF9C
+    espaçamento interno superior e inferior de 60px
+    espaçamento interno nas laterais 0px 
+
+SOBRE e SERVICOS (COLUNAS)
+    largura 45%
+
+SOBRE e SERVICOS (IMAGEM)
+    largura 100%
+    altura automática
+
+SOBRE e SERVICOS H2
+    fonte 'Raleway', sans-serif;
+    tudo em maiúsculo
+    font-weight: 900;
+    tamanho da fonte 24px
+
+PRODUTOS e CONTATO
+    espaçamento interno superior e inferior de 60px
+    espaçamento interno nas laterais 0px
+
+PRODUTOS 
+    imagem de fundo "fundo-produtos.jpg"
+
+PRODUTOS e CONTATO H2 
+    texto centralizado
+    fonte 'Raleway', sans-serif;
+    tudo em maiúsculo
+    font-weight: 900;
+    tamanho da fonte 24px
+
+PRODUTOS e CONTATO (Parágrafo)
+    texto centralizado 
+
+PRODUTOS LI 
+    largura de 235px
+
+PRODUTOS LI H3
+    fonte 'Raleway', sans-serif;
+    font-weight: 900;
+    tamanho da fonte 16px
+    cor da fonte preta 
+    espaçamento interno superior e inferior de 10px
+
+PRODUTOS LI SPAN 
+    display: block;
+    espaçamento externo inferior de 5px
+
+PRODUTOS LI BUTTON
+    borda sólida de 1px cor #6DD432
+    borda arredondada geral de 5px
+    cor de fundo #D2FBBD
+    espaçamento interno de 13px (superior e inferior)
+    espaçamento interno de 32px (laterais)
+
+CONTATO COLUNAS 
+    largura de 45% cada 
+
+CONTATO INPUT e TEXTAREA
+    borda sólida de 1px cor #6DD432
+    espaçamento interno geral de 13px 
+    largura 100%
+    espaçamento externo superior de 5px 
+
+CONTATO LABEL
+    display: block;
+    espaçamento externo inferior de 15px
+
+CONTATO STRONG
+    fonte 'Raleway', sans-serif;
+    font-weight: 900;
+
+CONTATO BUTTON 
+    borda sólida de 1px cor #6DD432
+    borda arredondada geral de 5px
+    cor de fundo #D2FBBD
+    espaçamento interno de 13px (superior e inferior)
+    espaçamento interno de 32px (laterais)
+
+CONTATO IFRAME
+    largura de 100%
+    altura 260px
+    espaçamento externo inferior de 15px
+
+RODAPÉ
+    (Olhe o layout e pense como deixar o rodapé como é apresentado no design)

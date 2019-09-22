@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+/* Centralizador do Layout */
+.conteiner {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* Conteiner flexível (colocar objetos um ao lado do outro) */
+.flex-conteiner {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.topo{
+    background-image: url("../imagens/fundo-topo.jpg");
+    position: block;
+    height: 134px;
+}
+
+
+.topo img{
+    position: block;
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-right: auto;
+    
+}
+
+#menu{
+    background-color: white;
+    display: block;
+    padding: 25px  ;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#menu li{
+    font-weight: bold;
+    
+    width: 300px;
+    margin-left: 5%;
+}
+
+#produtos{
+    background-image:url("../imagens/fundo-produtos.jpg");
+    
+    
+}
+
+#sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #bdff9c;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.sobre1 h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.sobre1 {
+    
+    width: 45%;
+    line-height: 30px;
+    
+
+}
+
+.sobre2{
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border: 0px;
+    box-shadow: 3px;
+}
+
+
+
+
+.primeiroParagrafo{
+
+   font-size: 32px;
+    padding-top: 6%;
+   padding-left: 45%;
+   width: 900px;
+}
+
+.informacaoProduto{
+    
+    display: inline-block;
+    line-height: 30px;
+    padding-bottom: 65px;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tabela{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.2%;
+    padding-right: 4.2%;
+    
+}
+
+.tabela img{
+    border: #333 solid 2px;
+    box-shadow: #333333  1px 2px 2px ;
+    border: none;
+}
+
+.tabela h3{
+    padding-top: 10px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 2px ;
+}
+
+.tabela button{
+    background: #cee6a0;
+    border: 1px solid #3a751d;
+    color: #333;
+    font-size: 20;
+    text-transform: uppercase;
+    box-shadow: 0 1px 4px #777;
+    display: block;
+    padding: 13px 26px;
+    margin: 26px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: none;
+}
+
+.tabela span{
+    color: black;
+
+}
+
+#servicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #bdff9c;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+
+.servicos1 {
+    width: 45%;
+    line-height: 30px;
+}
+
+.servicos2{
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border: 0px;
+    box-shadow: 3px;
+}
+
+#a{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 65px;
+     width: 900px;
+}
